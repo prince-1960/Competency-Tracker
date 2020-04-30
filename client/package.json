@@ -1,0 +1,51 @@
+{
+  "name": "react-frontend",
+  "version": "2.0.0",
+  "private": true,
+  "proxy":"http://localhost:8080",
+  "description": "Front end code restructured",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.13.3",
+    "canvasjs": "^1.8.3",
+    "chart.js": "^2.9.3",
+    "concurrently": "^4.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.5",
+    "react": "^16.13.0",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "^16.13.0",
+    "react-minimal-pie-chart": "^7.0.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-svg-piechart": "^2.4.1",
+    "shards-react": "^1.0.3"
+  },
+   "eslintConfig": {
+    "extends": "react-app",
+    "root": true
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
