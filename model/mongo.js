@@ -16,7 +16,7 @@ mongoose.connect(mongoDatabase, { useNewUrlParser: true }).then(
     );
 
     // create schema
-
+var mongoSchema =   mongoose.Schema;
     var SchemaS  = new mongoSchema({
         Emp_Id: String,
         Email: String,
