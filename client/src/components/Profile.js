@@ -82,7 +82,7 @@ class E0 extends Component {
 										</div>
 										<div class="panel-body">
 											{data ? (
-											<TransactionList/>
+											<CompetencyList/>
 											) : (
 												<div class="alert alert-warning alert-dismissible" role="alert">
 													No Competecny Found.
